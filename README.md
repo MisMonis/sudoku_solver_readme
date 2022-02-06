@@ -1,18 +1,21 @@
 # sudoku_solver_readme
+
 **Sudoku solver**
-----------------
 
 **Project Description**
-------------------------
+
 This is a program which solves any given Sudoku with the help of the solver module. 
 The input for the solver is a list of lists (matrix) with 9x9 which is filled with the given numbers 
 and 0 for empty spaces. The output will be the solved Sudoku as a list of lists (matrix) with 
 no 0 and filled with all numbers so that in each row, column and 3x3 square each number 
-only occurs once
+only occurs once.To make our program more user friendly we want to create a graphical user interface (GUI) 
+with the PyQt5 module. PyQt5 provides many useful commands and presets to create a 
+simple GUI. It also comes with a Qt Designer which makes creating a user interface even 
+easier.
 
 
 **Algorithm**
-----------------
+
 The chosen algorithm is a backtracking algorithm which is a sort of bruteforce algorithm. 
 The following steps will be done:
 
@@ -48,15 +51,17 @@ matrix [[0,0,0, …],[0,0,0, …],...]
 ---------------------
 
 **Supported Platforms:** Linux, Windows 10, macOS (both Intel and ARM)
-You need also Python3 installed with
+You need also Python3 installed with PyQt5 needs to be installed to run the GUI 
+(for the solver there is actually no further python module needed).
 
+What you need to do to start the program:
+-run the GUI - this would be:
+ start the program from a console with "python/python3 Sudoku_Solver.py"
 
 **Authors**
-------------
 Theresa Boiger,
 Julian scherr,
 Monika Matysiak
 
 **License**
------------
 GNU General Public License
