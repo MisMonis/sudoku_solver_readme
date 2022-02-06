@@ -1,5 +1,6 @@
 # sudoku_solver_readme
 **Sudoku solver**
+----------------
 
 **Project Description**
 ------------------------
