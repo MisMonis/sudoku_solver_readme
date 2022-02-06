@@ -2,7 +2,7 @@
 **Sudoku solver**
 
 **Project Description**
-
+------------------------
 This is a program which solves any given Sudoku with the help of the solver module. 
 The input for the solver is a list of lists (matrix) with 9x9 which is filled with the given numbers 
 and 0 for empty spaces. The output will be the solved Sudoku as a list of lists (matrix) with 
@@ -11,7 +11,7 @@ only occurs once
 
 
 **Algorithm**
-
+----------------
 The chosen algorithm is a backtracking algorithm which is a sort of bruteforce algorithm. 
 The following steps will be done:
 
@@ -51,9 +51,11 @@ You need also Python3 installed with
 
 
 **Authors**
+------------
 Theresa Boiger,
 Julian scherr,
 Monika Matysiak
 
 **License**
+-----------
 GNU General Public License
